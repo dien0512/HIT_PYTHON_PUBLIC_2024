@@ -1,0 +1,20 @@
+a = float(input('Nhập số a bất kì: '))
+b = float(input('Nhập một số b bất kì: '))
+print(f"a cộng b: {a + b}")
+print(f"a trừ b: {a - b}")
+print(f"a nhân b: {a * b}")
+print(f"a chia lấy nguyên b: {a // b}")
+print(f"a mũ b: {a ** b}")
+print(f"a chia dư b: {a % b}")
+if a > b:
+    print("a lớn hơn b")
+elif a < b:
+    print("a nhỏ hơn b")
+else:
+    print("a bằng b")
+print(f"a AND b: {int(a) & int(b)}")
+print(f"a OR b: {int(a) | int(b)}")
+print(f"a XOR b: {int(a) ^ int(b)}")
+print(f"NOT a == b: {not (a == b)}")
+print(f"a dịch phải 1 đơn vị: {int(a) >> 1}")
+print(f"a dịch trái 1 đơn vị: {int(a) << 1}")
