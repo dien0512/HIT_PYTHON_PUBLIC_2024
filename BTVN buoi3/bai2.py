@@ -13,6 +13,6 @@ else:
             a = my_list[index:index+m]
             new_list.append(a)
             index += m
-    print(new_list)
+        print(new_list)
     else:
-    print('NO')
+        print('NO')
