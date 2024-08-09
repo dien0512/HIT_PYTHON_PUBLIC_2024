@@ -1,5 +1,5 @@
 n = int(input())
-s = str(input())
-b = int(input())
-
+member = []
+for i inrage(n):
+    name, score = 
 

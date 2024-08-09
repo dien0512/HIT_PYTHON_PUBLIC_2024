@@ -1,8 +1,12 @@
 my_tuple = tuple(map(int, input().split()))
+s = set(my_tuple)
 cnt = 0
-for i in my_tuple:
+a = []
+for i in s:
     for j in my_tuple:
-        if my_tuple[i] == my_tuple[j]:
+        if j == i:
             cnt += 1
-if cnt % 5 == 0 and xnt % 10 = 1:
-
+    if cnt % 5 == 0 and cnt % 10 != 0:
+        a.append(j)
+for j in a:
+    print (j, end=" ")
